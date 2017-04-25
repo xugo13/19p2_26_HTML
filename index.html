@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+   <form class="form-horizontal" style="padding-left: 5%; padding-right: 5%;">
+   <fieldset style="border: 1px solid; border-radius: 10px;">
+   <legend style="padding-left:10px;">Contact Detail</legend>
+   <div class="form-group required">
+    <label for="inputName" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="text" class="form-control" id="inputName" placeholder="Ivan Ivanovich" >
+    </div>
+    </div>
+  </div>
+  <div class="form-group required">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" >
+    </div>
+    </div>
+  </div>
+  <div class="form-group">
+  <label class="col-sm-2 control-label">Phone</label>  
+    <div class="col-sm-10">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+  </fieldset>
+  <fieldset style="border: 1px solid; border-radius: 10px;">
+    <legend style="padding-left:10px;">Personal Information</legend>  
+    <div class="form-group required">
+    <label for="inputDate" class="col-sm-2 control-label">Date</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+      <input type="date" class="form-control" id="inputDate" >
+    </div>
+    </div>
+  </div>
+     <div class="form-group required">
+    <label for="inputAge" class="col-sm-2 control-label">Age</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+      <input type="number" class="form-control" id="inputAge" placeholder="18">
+    </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+  <label for="inputAge" class="col-sm-2 control-label">Gender</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your gender</option>
+      <option selected>Male</option>
+      <option>Female</option>
+    </select>
+  </div>
+</div>
+</div>
+  <div class="form-group required"> 
+  <label for="inputAge" class="col-sm-2 control-label">Tell about yourself</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" rows="3" name="comment" placeholder="I like sport"></textarea>
+  </div>
+  </div>
+</div>
+   </fieldset>
+    <fieldset style="border: 1px solid; border-radius: 10px;">
+    <legend style="padding-left:10px;">Choose your favorite animal</legend> 
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label class="checkbox-inline">
+        
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> Zibra
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Cat
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Anakonda
+</label>
+ <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Human
+</label>
+ <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Monkey
+</label>
+ <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Antilopa
+</label>
+ <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Pigeon
+</label>
+ <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Crabs
+</label>
+      </div>
+    </div>
+  </div>
+       </fieldset>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+     <button type="submit" class="btn btn-warning" style="margin-top: 20px;" >Submit application<span class="glyphicon glyphicon-send"></span></button>
+    </div>
+  </div>
+</form>
+   
+    <script src="libs/jquery-3.2.1.min.js"></script>
+    <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
