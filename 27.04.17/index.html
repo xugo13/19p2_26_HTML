@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+/*
+        div{
+           background-image: url(img/magic-001.jpg);
+            width: 1000px;
+            height: 1000px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+        div:hover{
+            background-image: url(img/abracadabra.jpg);
+            width: 1000px;
+            height: 1000px;
+            border-radius: 20%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-transition: background-color 5s ease-in 3s;
+            transition: 0.5s ease-in 2s;
+        }
+*/
+        div{
+            position: absolute;
+           background-image: url(img/card.png);
+            width: 480px;
+            height: 720px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            z-index: 14;
+                
+        }
+        div:hover{
+            position: absolute;
+            background-image: url(img/backcard1.png);
+            width: 10px;
+            height: 720px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            
+            transform: rotateY(90deg);
+            transition: 0.5s ease-in 1s;
+            
+        }
+        div.second{
+           position: absolute;
+            transition: 0.5s ease-in 0.5s;
+            background-image: url(img/backcard1.png);
+            width: 510px;
+            height: 720px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            z-index: 2;
+        }
+        p{
+            position: absolute;
+            margin-left: 520px;
+            width: 500px;
+            font-size: 24pt;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+    <div class="second"></div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident natus, consequuntur aut aliquam fugit ratione. Numquam, commodi, minima. Ullam itaque ipsa quis, error accusamus esse aliquam possimus reprehenderit excepturi velit!</p>
+</body>
+</html>
